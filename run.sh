@@ -1,3 +1,5 @@
+#!/bin/bash
+
 type rsync || { sudo apt-get update ; sudo apt-get install rsync; }
 
 export exclude_parameters=""
